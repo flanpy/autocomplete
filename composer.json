@@ -1,0 +1,16 @@
+{
+    "name": "flanpy/autocomplete",
+    "description" : "Add autocomplete queries to quicksearch inputs in adressbook and mail display",
+    "type": "roundcube-plugin",
+    "keywords": ["autocomplete"],
+    "license": "GPL-3.0+",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.3"
+    }
+}
