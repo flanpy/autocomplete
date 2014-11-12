@@ -42,10 +42,7 @@ class autocomplete extends rcube_plugin {
 				return null;
 
 			$query_term =  rcube_utils::get_input_value('_term', RCUBE_INPUT_POST);
-			
-			if($query_term===NULL)
-				return null;
-				
+
 			$set = $this->contacts->search('*', $query_term, 0);
 			
 			$result = $this->parse_results($set, 4, 'name');

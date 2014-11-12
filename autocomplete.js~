@@ -46,6 +46,5 @@ function search_query_addressbook()
 
 function search_query_mails()
 {
-	lock = rcmail.set_busy(true, 'loading');
-	rcmail.http_post('plugin.autocomplete-get-mails-x', '_q='+$('#quicksearchbox').val(), lock);
+	rcmail.http_post('plugin.autocomplete-get-mails-x', '_q='+$('#quicksearchbox').val());
 }
