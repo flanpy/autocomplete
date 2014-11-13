@@ -5,7 +5,7 @@ Autocomplete plugin for Roundcube webmail using jQueryUI (*BETA*)
 ## Installation :
 
 1. Download plugin in plugins folder of your roundcube installation.
-2. Add "jqueryui" & "autocomplete" to $config['plugins'] in cfg file.
+2. Add "autocomplete" (+ "jqueryui" if not already defined) to $config['plugins'] in cfg file.
 
 
 ## Features :
